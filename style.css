@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box ;
+	min-width: 260px;
 }
 
 body {
@@ -37,8 +38,10 @@ figcaption {
 }
 
 .img1 {
+	display: block;
 	width: 600px;
 	margin: 50px;
+	max-width: 600px;
 }
 
 main {
@@ -48,4 +51,21 @@ main {
 	/*background-color: #b8b6b5;*/
 	font-size: 20px;
 	margin: -10px;
+}
+
+ul {
+	text-align: left;
+	list-style: inside;
+	line-height: 50px;
+	margin:0 auto;
+}
+
+li {
+	margin: 10px;
+}
+
+@media (max-width: 600px) {
+	.img1 {
+		width: 200px;
+	}
 }
