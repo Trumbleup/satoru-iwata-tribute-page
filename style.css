@@ -7,6 +7,7 @@
 
 body {
 	background-color: #eceaf2;
+	font-family: 'Georgia', serif;
 	
 }
 
@@ -62,25 +63,34 @@ figcaption {
 	flex-direction: row;
 	/*justify-content: center;*/
 	background-color: #ECEAF2;
-	font-size: 20px;
+	font-size: 18px;
 	padding: 10px;
 	margin: 10px;
-	width: 70%;
+	width: 50%;
 }
 
 ul {
 	text-align: left;
 	list-style: inside;
-	line-height: 50px;
+	line-height: 30px;
 	margin:0 auto;
+	max-width: 550px;
 }
 
 li {
-	margin: 10px;
+	margin: 20px;
 }
 
 .reference {
 	margin-top: 30px;
+	font-size: 20px;
+}
+
+#footer {
+	background-color: #A298C0;
+	text-align: center;
+	padding: 20px;
+	margin-top: -20px;
 	font-size: 20px;
 }
 
